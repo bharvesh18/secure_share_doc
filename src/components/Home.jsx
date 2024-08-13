@@ -28,10 +28,12 @@ const Home = () => {
     setCurrSlide((currSlide-1+totalslide)%totalslide)
     setFileOpt((fileOpt-1+upshare.length)%upshare.length)
   }
+  /*
   useEffect(() => {
     const interval = setInterval(nextSlide, 3000);
     return () => clearInterval(interval);
   }, [currSlide]);
+  */
   return (
     <div>
       {regUser.register==true &&(
