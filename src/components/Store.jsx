@@ -63,10 +63,10 @@ const Store = ({setUpBtn}) => {
       }
 
       emailjs.send(
-        'service_ibo5bje',
-        'template_h15ri7c',
+        'serviceid',
+        'templateid',
         templateParams,
-        '4O4H2OHsPnEDPwi0O'
+        ''
       ).then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       }).catch((error) => {
