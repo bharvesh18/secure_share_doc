@@ -15,7 +15,7 @@
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/bharvesh18/secure_share_doc
    ```
 
 2. **Navigate to the Project Directory**
