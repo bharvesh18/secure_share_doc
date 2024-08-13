@@ -8,12 +8,12 @@ import { getStorage } from "firebase/storage";
 import { initializeFirestore } from "firebase/firestore";
 import {getFunctions} from "firebase/functions"
 const firebaseConfig = {
-  apiKey: "AIzaSyADiRPxAf_vMPLPKbNHOdT-3uhr_bB9c0I",
-  authDomain: "share-aa5d4.firebaseapp.com",
-  projectId: "share-aa5d4",
-  storageBucket: "share-aa5d4.appspot.com",
-  messagingSenderId: "944707828907",
-  appId: "1:944707828907:web:5e635fa173fb37f93b0bee"
+  apiKey: "API KEY",
+  authDomain: "AUTH DOMAIN",
+  projectId: "PROJECT ID",
+  storageBucket: "STORAGE BUCKET",
+  messagingSenderId: "MESSAGINGID",
+  appId: "APPID"
 };
 
 const app = initializeApp(firebaseConfig);
